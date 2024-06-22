@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode development",
-    "dev": "webpack --mode production",
+    "build": "webpack",
     "start": "webpack serve"
   },
   "author": "",

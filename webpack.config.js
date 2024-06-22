@@ -31,7 +31,7 @@ module.exports = {
 
   plugins: [
     new HtmlWebpackPlugin({
-      template: './index.html',
+      template: 'index.html',
       chunks: ['main']
     })
   ].concat(multipleHtmlPlugins),
